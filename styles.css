@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Warna Biru Muda */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #add8e6; /* Warna Biru */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc00; /* Warna Kuning */
+}
+
+main {
+    padding: 20px;
+}
+
+.introduction {
+    background-color: white;
+    border: 2px solid #ffcc00; /* Warna Kuning */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffcc00; /* Warna Kuning */
+}
+
+.character-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.character {
+    width: 100px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #add8e6; /* Warna Biru */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
